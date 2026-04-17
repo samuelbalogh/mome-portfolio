@@ -111,7 +111,7 @@ img {
   background: var(--accent);
   color: var(--accent-ink);
   border-radius: 6px;
-  box-shadow: 0 0 24px var(--shadow);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 55%, transparent), 0 0 28px var(--shadow);
 }
 
 .nav {
